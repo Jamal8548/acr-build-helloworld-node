@@ -1,5 +1,5 @@
 ARG REGISTRY_NAME
-FROM azureimageacr/baseimages/node:15-alpine
+FROM azureimageacr.azurecr.io/baseimages/node:15-alpine
 
 COPY . /src
 RUN cd /src && npm install
